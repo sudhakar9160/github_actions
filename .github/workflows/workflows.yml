@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       target_env:
-        required: ture
+        required: true
         description: this is to input
-        default: test
+        default: "test"
         type: choice
         options:
           - test
